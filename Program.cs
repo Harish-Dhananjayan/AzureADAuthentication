@@ -13,8 +13,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
-        options.Authority = "https://login.microsoftonline.com/TenantId";
-        options.Audience = "ClientId";
+        options.Authority = "https://login.microsoftonline.com/f0f940e5-afc5-4196-8864-8f1594e1ef8b";
+        options.Audience = "f40d1431-fdf1-4eee-9859-5704f40eb6a9";
 
         options.TokenValidationParameters = new TokenValidationParameters
         {
